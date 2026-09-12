@@ -6,12 +6,26 @@ A practical roadmap to learn C by studying and working through real-world reposi
 
 Build strong C fundamentals, systems programming knowledge, and the ability to read and modify large C codebases.
 
+## What You Will Learn
+
+- C syntax and programming basics
+- Pointers, arrays, strings, structs, enums, unions
+- Dynamic memory management
+- Modular programming with headers and source files
+- File I/O and error handling
+- Data structures and algorithms in C
+- Event loops and async I/O
+- Networking and systems programming
+- Debugging, profiling, and build systems
+- Reading and contributing to large codebases
+
 ## Learning Philosophy
 
 - Learn from real production code, not just toy examples.
 - Trace features end-to-end.
 - Make small changes and verify them.
 - Keep notes and track progress.
+- Build something after every study phase.
 
 ## The 5 Repositories
 
@@ -43,17 +57,16 @@ Build strong C fundamentals, systems programming knowledge, and the ability to r
 ### Phase 3: Deep Systems
 - `torvalds/linux`
 
-## How to Use This Repo
-
-For each repository:
+## What to Do in Each Repo
 
 1. Clone the repo.
 2. Build it successfully.
 3. Read the folder structure.
 4. Trace one feature end-to-end.
 5. Change one small thing.
-6. Write notes about what you learned.
-7. Mark progress below.
+6. Run tests or verify behavior.
+7. Write notes about what you learned.
+8. Mark progress below.
 
 ## Progress Tracker
 
@@ -64,6 +77,7 @@ For each repository:
 - [ ] Trace command execution
 - [ ] Trace memory management
 - [ ] Modify one command
+- [ ] Run tests or verify behavior
 - [ ] Write notes
 
 ### 2) libuv/libuv
@@ -73,6 +87,7 @@ For each repository:
 - [ ] Trace async I/O flow
 - [ ] Learn cross-platform abstractions
 - [ ] Modify one small behavior
+- [ ] Run tests or verify behavior
 - [ ] Write notes
 
 ### 3) torvalds/linux
@@ -82,6 +97,7 @@ For each repository:
 - [ ] Trace one subsystem
 - [ ] Study memory/process management
 - [ ] Read and explain one driver or module
+- [ ] Run tests or verify behavior
 - [ ] Write notes
 
 ### 4) php/php-src
@@ -91,6 +107,7 @@ For each repository:
 - [ ] Trace request startup and execution
 - [ ] Study internals and memory handling
 - [ ] Make a small change
+- [ ] Run tests or verify behavior
 - [ ] Write notes
 
 ### 5) netdata/netdata
@@ -100,6 +117,7 @@ For each repository:
 - [ ] Trace data collection and metrics flow
 - [ ] Study performance-sensitive code
 - [ ] Make a small change
+- [ ] Run tests or verify behavior
 - [ ] Write notes
 
 ## Weekly Study Plan
@@ -126,14 +144,46 @@ For each repository:
 - Then `php/php-src`
 - Then `torvalds/linux`
 
-## Progress Log
+## Suggested Learning Milestones
 
-- Date: 
-- Repo: 
-- What I learned: 
-- What I changed: 
-- What is next: 
+### Beginner
+- [ ] Understand basic C syntax
+- [ ] Understand pointers and memory
+- [ ] Build a C project from source
+
+### Intermediate
+- [ ] Read a medium-sized codebase
+- [ ] Trace execution flow
+- [ ] Fix or modify a small feature
+- [ ] Write your own helper functions
+- [ ] Use Makefiles confidently
+
+### Advanced
+- [ ] Understand async I/O and event loops
+- [ ] Understand systems-level architecture
+- [ ] Read a very large codebase like Linux
+- [ ] Debug with gdb or similar tools
+- [ ] Profile and optimize hot paths
+
+## Recommended Learning Style
+
+- Read one file at a time.
+- Draw a flowchart for one feature.
+- Keep a notebook of C concepts.
+- Re-implement small pieces yourself.
+- Compare your understanding with the real code.
+- Review progress weekly.
+
+## Session Template
+
+- Date:
+- Repo:
+- Goal:
+- What I read:
+- What I built:
+- What I learned:
+- Next step:
 
 ## Notes
 
-Use this repo as your personal learning hub. Add links, snippets, and your own explanations as you go.
+Use this repo as your personal learning hub. Add links, snippets, diagrams, and your own explanations as you go.

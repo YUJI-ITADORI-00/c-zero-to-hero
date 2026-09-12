@@ -14,6 +14,7 @@
 - Finish small milestones before moving on.
 - Write notes after each study session.
 - Make at least one small change in each repository when possible.
+- Always verify by building, testing, or running the software.
 
 ## Milestones
 
@@ -26,11 +27,15 @@
 - [ ] Read a medium-sized codebase
 - [ ] Trace execution flow
 - [ ] Fix or modify a small feature
+- [ ] Write helper functions and headers
+- [ ] Understand build files
 
 ### Advanced
 - [ ] Understand async I/O and event loops
 - [ ] Understand systems-level architecture
 - [ ] Read a very large codebase like Linux
+- [ ] Debug and profile performance
+- [ ] Contribute a small patch
 
 ## Session Template
 
